@@ -115,4 +115,40 @@ img {
   display: flex;
 }
 
+@media (width <= 768px) {
+  .header-initial {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .list-initial {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .img-about {
+    place-items: center;
+    width: 88%;
+    height: 100vh;
+    display: grid;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 10px;
+    height: 100vh;
+    display: grid;
+  }
+
+  .foot {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=index.91688108.css.map */
